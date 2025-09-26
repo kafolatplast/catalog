@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>KAFOLAT PLAST — Контакты</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: white;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: white;
+      color: #e60023;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    /* Логотип */
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .logo-img {
+      height: 60px;
+      width: auto;
+    }
+    .logo-red {
+      color: #e60023;
+    }
+    .logo-box {
+      background: #e60023;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+
+    /* Меню */
+    .menu {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .menu a {
+      color: #e60023;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .menu a:hover {
+      color: #ff4d6d;
+    }
+
+    #search {
+      padding: 6px 12px;
+      border: 2px solid #e60023;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      outline: none;
+      transition: 0.3s;
+    }
+    #search:focus {
+      border-color: #ff4d6d;
+      box-shadow: 0 0 5px rgba(230,0,35,0.5);
+    }
+
+    main {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    main h1 {
+      color: #e60023;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    main p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    /* Контактная форма */
+    .contact-form {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px 15px;
+      border: 2px solid #e60023;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: #ff4d6d;
+      box-shadow: 0 0 5px rgba(230,0,35,0.5);
+    }
+
+    .contact-form button {
+      background: #e60023;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #ff4d6d;
+    }
+
+    footer {
+      text-align: center;
+      background: #e60023;
+      color: white;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Логотип" class="logo-img">    
+      <span class="logo-red">KAFOLAT</span>
+      <span class="logo-box">PLAST</span>
+    </div>
+    <div class="menu">
+      <a href="about.html">О НАС</a>
+      <a href="contacts.html">КОНТАКТЫ</a>
+      <input type="text" id="search" placeholder="Поиск..." />
+    </div>
+  </header>
+
+  <main>
+    <h1>Контакты</h1>
+    <p>Адрес: г. Ташкент, ул. Примерная, 12</p>
+    <p>Телефон: +998 71 123 45 67</p>
+    <p>Email: info@kafolatplast.uz</p>
+    <p>Режим работы: Пн–Пт с 9:00 до 18:00</p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="email" placeholder="Ваш email" required>
+      <textarea rows="5" placeholder="Сообщение" required></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+  </main>
+
+  <footer>
+    © Компания OOO «TOSHKENT TUZ» — Контакты
+  </footer>
+</body>
+</html>

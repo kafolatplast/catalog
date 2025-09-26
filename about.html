@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>О нас — KAFOLAT PLAST</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: white;
+      color: #333;
+    }
+
+    /* Шапка как в index.html */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: white;
+      color: #e60023;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    /* Логотип */
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .logo-img {
+      height: 60px;
+      width: auto;
+    }
+    .logo-red {
+      color: #e60023;
+    }
+    .logo-box {
+      background: #e60023;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+
+    /* Меню */
+    .menu {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .menu a {
+      color: #e60023;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .menu a:hover {
+      color: #ff4d6d;
+    }
+
+    /* Контент */
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+
+    main h1 {
+      color: #e60023;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background: #e60023;
+      color: white;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Логотип" class="logo-img">    
+      <span class="logo-red">KAFOLAT</span>
+      <span class="logo-box">PLAST</span>
+    </div>
+    <div class="menu">
+      <a href="index.html">КАТАЛОГ</a>
+      <a href="contacts.html">КОНТАКТЫ</a>
+    </div>
+  </header>
+
+  <main>
+    <h1>О компании KAFOLAT PLAST</h1>
+    <p>
+      Компания <b>KAFOLAT PLAST</b> — это ведущий производитель пластиковой упаковки,
+      дозаторов, триггеров, спрейеров и ПЭТ тары. Мы предлагаем широкий ассортимент
+      продукции, которая соответствует современным стандартам качества.
+    </p>
+    <p>
+      Наша миссия — предоставлять клиентам удобные, надёжные и экологичные решения
+      для упаковки. Мы работаем как с крупными предприятиями, так и с частными клиентами,
+      обеспечивая гибкий подход и индивидуальные условия сотрудничества.
+    </p>
+  </main>
+
+  <footer>
+    © Компания OOO «TOSHKENT TUZ» — все права защищены.
+  </footer>
+
+</body>
+</html>
