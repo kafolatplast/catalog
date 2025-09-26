@@ -135,6 +135,19 @@
       background: #ff4d6d;
     }
 
+    /* Карта */
+    .map-container {
+      margin-top: 40px;
+      width: 100%;
+      max-width: 900px;
+      height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
     footer {
       text-align: center;
       background: #e60023;
@@ -172,6 +185,14 @@
       <textarea rows="5" placeholder="Сообщение" required></textarea>
       <button type="submit">Отправить</button>
     </form>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.657452!2d69.272795!3d41.215427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z0YPQuy4g0J_RgNC40LrQuNC60LAsIDE!5e0!3m2!1sru!2s!4v1690000000000"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
   </main>
 
   <footer>
