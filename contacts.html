@@ -134,7 +134,11 @@
     .contact-form button:hover {
       background: #ff4d6d;
     }
-
+.fixed-textarea {
+  resize: none; /* запрещает изменение размера пользователем */
+  width: 100%;  /* фиксированная ширина (можно задать px) */
+  height: 120px; /* фиксированная высота (можно использовать px или em) */
+}
     /* Карта */
     .map-container {
       margin-top: 40px;
@@ -183,7 +187,7 @@
       <input type="text" placeholder="Ваше имя" required>
       <input type="telephone" placeholder="Ваш телефон" required>
       <input type="email" placeholder="Ваш email" required>
-      <textarea rows="5" placeholder="Сообщение" required></textarea>
+      <textarea rows="5" placeholder="Сообщение" required class="fixed-textarea"></textarea>
       <button type="submit">Отправить</button>
     </form>
 
@@ -201,5 +205,6 @@
   </footer>
 </body>
 </html>
+
 
 
