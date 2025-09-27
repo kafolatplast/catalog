@@ -97,8 +97,8 @@
       <span class="logo-box">PLAST</span>
     </div>
     <div class="menu">
-      <a href="index">КАТАЛОГ</a>
-      <a href="contacts">КОНТАКТЫ</a>
+      <a href="index.html">КАТАЛОГ</a>
+      <a href="contacts.html">КОНТАКТЫ</a>
 
     </div>
   </header>
@@ -123,6 +123,7 @@
 
 </body>
 </html>
+
 
 
 
