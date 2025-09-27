@@ -96,7 +96,8 @@
     </div>
     <div class="menu">
       <a href="index.html">КАТАЛОГ</a>
-      <a href="contacts.html">КОНТАКТЫ</a>
+      <a href="contacts">КОНТАКТЫ</a>
+
     </div>
   </header>
 
@@ -120,3 +121,4 @@
 
 </body>
 </html>
+
