@@ -165,15 +165,15 @@
 <body>
   <header>
     <div class="logo">
-      <a href="index">
+      <a href="index.html">
         <img src="images/logo.png" alt="Логотип" class="logo-img">
       </a>   
       <span class="logo-red">KAFOLAT</span>
       <span class="logo-box">PLAST</span>
     </div>
     <div class="menu">
-      <a href="index">КАТАЛОГ</a>
-      <a href="about">О НАС</a>
+      <a href="index.html">КАТАЛОГ</a>
+      <a href="about.html">О НАС</a>
       <input type="text" id="search" placeholder="Поиск..." />
     </div>
   </header>
@@ -207,6 +207,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
