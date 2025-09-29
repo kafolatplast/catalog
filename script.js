@@ -1,9 +1,9 @@
   const categories = {
     triggers: [
-      { name: "Триггер 1", img: "images/trigger1.png", info: "Резьба 28/410 • Цвет: белый • Материал: PP" },
-      { name: "Триггер 2", img: "images/trigger2.png", info: "Резьба 28/410 • Цвет: черный • Материал: PP" },
-      { name: "Триггер 3", img: "images/trigger3.png", info: "Резьба 28/410 • Цвет: синий • Материал: PP" },
-      { name: "Триггер 4", img: "images/trigger4.png", info: "Резьба 28/410 • Цвет: красный • Материал: PP" },
+      { name: "Триггер Китайский", img: "images/trigger1.png", info: "Резьба 28/410 • Цвет: красный • Материал: PP" },
+      { name: "Триггер Китайский", img: "images/trigger2.png", info: "Резьба 28/410 • Цвет: зеленый • Материал: PP" },
+      { name: "Триггер Китайский", img: "images/trigger3.png", info: "Резьба 28/410 • Цвет: розовый • Материал: PP" },
+      { name: "Триггер Китайский", img: "images/trigger4.png", info: "Резьба 28/410 • Цвет: синий • Материал: PP" },
       { name: "Триггер 5", img: "images/trigger5.png", info: "Резьба 28/410 • Цвет: зелёный • Материал: PP" },
       { name: "Триггер 6", img: "images/trigger6.png", info: "Резьба 28/410 • Цвет: прозрачный • Материал: PP" },
       { name: "Триггер 7", img: "images/trigger7.png", info: "Резьба 28/410 • Цвет: жёлтый • Материал: PP" },
@@ -133,3 +133,4 @@ window.addEventListener("load", function(){
     preloader.style.display = "none";
   }, 3500); // исчезает через 3.5 секунды
 });
+
