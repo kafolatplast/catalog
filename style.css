@@ -1,31 +1,5 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
-#preloader {
-  position: fixed;
-  left: 0; top: 0;
-  width: 100%; height: 100%;
-  background: #ffffff; /* фон экрана */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-}
-
-#preloader img {
-  width: 140px;
-  animation: zoomIn 1.5s ease forwards, fadeOut 1.5s ease forwards 2s;
-}
-
-/* Увеличение при появлении */
-@keyframes zoomIn {
-  from { transform: scale(0.5); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
-}
-
-/* Плавное исчезновение */
-@keyframes fadeOut {
-  to { opacity: 0; transform: scale(0.9); }
-}
 
     body {
       font-family: 'Inter', sans-serif;
@@ -244,3 +218,30 @@
   background: #ff4d6d;
 }
 
+
+#preloader {
+  position: fixed;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: #ffffff; /* фон экрана */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+#preloader img {
+  width: 140px;
+  animation: zoomIn 1.5s ease forwards, fadeOut 1.5s ease forwards 2s;
+}
+
+/* Увеличение при появлении */
+@keyframes zoomIn {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Плавное исчезновение */
+@keyframes fadeOut {
+  to { opacity: 0; transform: scale(0.9); }
+}
