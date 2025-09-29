@@ -231,7 +231,7 @@
 }
 
 #preloader img {
-  width: 540px;
+  width: 340px;
   animation: zoomIn 1.5s ease forwards, fadeOut 1.5s ease forwards 2s;
 }
 
@@ -245,5 +245,6 @@
 @keyframes fadeOut {
   to { opacity: 0; transform: scale(0.9); }
 }
+
 
 
