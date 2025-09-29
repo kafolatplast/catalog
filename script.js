@@ -127,10 +127,3 @@
   // По умолчанию показываем все
   showCategory("all");
 
-window.addEventListener("load", function(){
-  let preloader = document.getElementById("preloader");
-  setTimeout(() => {
-    preloader.style.display = "none";
-  }, 3500); // исчезает через 3.5 секунды
-});
-
